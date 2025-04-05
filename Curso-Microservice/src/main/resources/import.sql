@@ -1,10 +1,2 @@
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 1', 'Descripcion 1', Modalidad1, 10);
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 2', 'Descripcion 2', Modalidad2, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 3', 'Descripcion 3', Modalidad3, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 4', 'Descripcion 4', Modalidad4, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 5', 'Descripcion 5', Modalidad5, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 6', 'Descripcion 6', Modalidad6, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 7', 'Descripcion 7', Modalidad7, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 8', 'Descripcion 8', Modalidad8, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 9', 'Descripcion 9', Modalidad9, 10));
-INSERT INTO producto (nombre, descripcion, modalidad, creditos) VALUES ('Curso 10', 'Descripcion 10', Modalidad10, 10));
+INSERT INTO curso (nombre, descripcion, id_docente, id_semestre, modalidad, numero_creditos, duracion, cupos_disponibles, horario, activo, fecha_creacion)
+VALUES ('Matemáticas Avanzadas', 'Curso de cálculo diferencial', 1, 1, 'Presencial', 4, 60, 20, 'Lunes 14:00-16:00', true, '28-03-2025');
